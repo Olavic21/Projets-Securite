@@ -1,0 +1,10 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 25 : État FreeRADIUS
+- Commande exécutée : systemctl status freeradius
+- Sortie simulée : ● freeradius.service - FreeRADIUS AAA Server
+  Active: active (running) since [date]; PID [number]
+- Légende technique : Statut du service FreeRADIUS sur Ubuntu Server 24.04. Montrerait que le service est active (running) avec le PID du processus, confirmant que le serveur RADIUS est opérationnel et à l'écoute sur les ports 1812/1813.
+- Contrôle M1 : M1-03 Authentification centralisée - service actif
+- Référence NSA : Service critique - FreeRADIUS en exécution
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

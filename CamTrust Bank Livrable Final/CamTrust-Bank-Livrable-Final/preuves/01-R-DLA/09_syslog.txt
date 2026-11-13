@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 9 : Syslog et journalisation R-DLA
+- Commande exécutée : /system logging print topics=firewall
+- Sortie simulée : #0 firewall enable
+- Légende technique : Configuration de la journalisation des événements firewall sur le routeur R-DLA. Les événements de sécurité sont redirigés vers le système de journalisation central (rsyslog sur SRV-ADMIN). L'activation de la journalisation firewall permet la traçabilité des tentatives de connexion non autorisées.
+- Contrôle M1 : M1-04 Journalisation
+- Référence NSA : Journalisation - événements de sécurité consignés
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

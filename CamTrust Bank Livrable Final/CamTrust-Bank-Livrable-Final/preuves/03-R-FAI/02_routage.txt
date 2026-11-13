@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 19 : Tables de routage R-FAI
+- Commande exécutée : show ip route
+- Sortie simulée : [table de routage IPv4 avec routes statiques et dynamiques]
+- Légende technique : Table de routage IPv4 du routeur VyOS. Montrerait les routes statiques, les routes dynamiques (OSPF, BGP) et les connexions par défaut vers le réseau Internet simulé (203.0.113.0/24).
+- Contrôle M1 : M1-07 Protection du plan de contrôle
+- Référence NSA : Plan de routage - routes documentées
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

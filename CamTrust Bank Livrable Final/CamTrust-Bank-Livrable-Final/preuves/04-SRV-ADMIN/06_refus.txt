@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 27 : Authentification refusée
+- Commande exécutée : radtest vick <masqué> localhost 0 <masqué>
+- Sortie simulée : Received Access-Reject Id [number] ← 127.0.0.1:1812 (0) :- Expected Access-Accept got Access-Reject
+- Légende technique : Scénario de tentative d'authentification échouée pour le compte vick avec un mot de passe incorrect. La sortie montrerait Received Access-Reject et le message (0) :- Expected Access-Accept got Access-Reject. Cela démontre que le serveur RADIUS vérifie effectivement les identifiants et rejette les tentatives non autorisées.
+- Contrôle M1 : M1-03 Authentification centralisée - authentification refusée
+- Référence NSA : Authentification refusée - tentative journalisée
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

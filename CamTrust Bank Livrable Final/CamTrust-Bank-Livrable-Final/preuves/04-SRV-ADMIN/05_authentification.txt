@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 26 : Authentification réussie
+- Commande exécutée : radtest vick <masqué> localhost 0 <masqué>
+- Sortie simulée : Sent Access-Request Id [number] → 127.0.0.1:1812 (User-Name = vick), Received Access-Accept Id [number] ← 127.0.0.1:1812 (Message-Authenticator valide)
+- Légende technique : Requête RADIUS réussie pour le compte vick avec le mot de passe <masqué>. La sortie montrerait Sent Access-Request et Received Access-Accept avec User-Name = vick. Le Message-Authenticator valide confirmerait que l'authentification est réussie et que l'intégrité du paquet est maintenue.
+- Contrôle M1 : M1-03 Authentification centralisée - authentification réussie
+- Référence NSA : Authentification - traçabilité sans affichage mdp
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

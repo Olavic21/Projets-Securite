@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 16 : Journaux système R-SIEGE
+- Commande exécutée : show logging
+- Sortie simulée : [display of system log entries]
+- Légende technique : Journaux système du routeur Cisco IOS. Montrerait les événements de système, messages d'erreur, avertissements et informations de débogage. Essentiels pour la forensic sécurité et le dépannage.
+- Contrôle M1 : M1-04 Journalisation
+- Référence NSA : Journalisation - événements consignés
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

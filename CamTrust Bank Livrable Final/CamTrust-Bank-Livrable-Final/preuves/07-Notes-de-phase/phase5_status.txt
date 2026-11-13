@@ -1,0 +1,23 @@
+PHASE 5 — AUTORISATION R-DLA STATUS
+
+A. Objectif — Configurer groupes admin + lecture seule sur R-DLA, attribuer privileges appropriées.
+
+B. Diagnostic — État observé depuis audit PHASE 1 et configs actuelles :
+  • R-DLA users : `0 X admin` (disabled), `1 vick full` ✅
+  • R-DLA groups : read/write/full ✅
+  • vick possède le groupe `full` ✅
+  • Profil par défaut : read (via /user aaa) ✅
+  • use-radius : toujours "no" (jusqu'au checkpoint 4) ✅
+
+C. Actions — 
+  • Tentative configuration groupes via interface CLI RouterOS 7.23.8 CHR
+  • Limitations vncdotool : commandes `/user group add` et `/user add` non reconnues sur cette version CHR
+  • Documentation de l'état existant comme base pour configuration ultérieure
+
+D. Résultats — 
+  • État autorisation actuel documenté : users existants, groupes read/write/full
+  • Besoin de configuration groupes admin/read-only : à effectuer via interface WinBox/EVE-NG native
+  • Pas de blocage authentification : vick a déjà accès en mode `full`
+
+E. Validation / Point de contrôle 5 — PLANIFIÉ
+  (configuration groupes admin/read-only via interface graphique ou commande CLI adaptée)

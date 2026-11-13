@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 3 : Table de routage R-DLA
+- Commande exécutée : /ip route print
+- Sortie simulée : #0 10.10.99.0/24 via 198.51.100.2, #1 172.16.12.0/30 on-link, #2 198.51.100.0/30 on-link
+- Légende technique : Table de routage statique du routeur R-DLA illustrant les trois destinations principales : réseau d'administration, liaison vers le siège, liaison vers le fournisseur d'accès.
+- Contrôle M1 : M1-07 Protection du plan de contrôle
+- Référence NSA : Sécurisation du plan de contrôle - routage statique configuré
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

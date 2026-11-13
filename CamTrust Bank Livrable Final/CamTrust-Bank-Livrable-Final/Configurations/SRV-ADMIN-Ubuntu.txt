@@ -1,0 +1,66 @@
+# CONFIGURATION DE RÉFÉRENCE SRV-ADMIN – NON APPLIQUÉE TELLE QUELLE
+
+# ===== freeradius/clients.conf =====
+# À AJOUTER dans /etc/freeradius/3.0/clients.conf
+# STATUT : NON VÉRIFIÉ. Secrets masqués.
+
+client R-DLA {
+    ipaddr = 172.16.12.2
+    secret = <masqué>
+    shortname = R-DLA
+    nastype = other
+    require_message_authenticator = yes
+}
+
+client R-SIEGE {
+    ipaddr = 10.10.99.1
+    secret = <masqué>
+    shortname = R-SIEGE
+    nastype = cisco
+    require_message_authenticator = yes
+}
+
+client R-FAI {
+    ipaddr = 198.51.100.1
+    secret = <masqué>
+    shortname = R-FAI
+    nastype = other
+    require_message_authenticator = yes
+}
+
+# ===== freeradius/authorize =====
+# À AJOUTER dans /etc/freeradius/3.0/mods-config/files/authorize
+# STATUT : NON VÉRIFIÉ. Mots de passe masqués.
+
+# Administrateur nominatif : accès complet
+admin-tech    Cleartext-Password := "<masqué>"
+              Mikrotik-Group := full,
+              Cisco-AVPair := "shell:priv-lvl=15",
+              Service-Type := Administrative-User
+
+# Compte révoqué (départ d'un prestataire) : rejet explicite, conservé pour traçabilité
+ex-prestataire  Auth-Type := Reject
+              Reply-Message := "Compte desactive"
+
+# ===== rsyslog/10-routeurs.conf =====
+# /etc/rsyslog.d/10-routeurs.conf
+# STATUT : NON VÉRIFIÉ. Créer le dossier : mkdir -p /var/log/routeurs
+module(load="imudp")
+input(type="imudp" port="514")
+
+template(name="ParHote" type="string" string="/var/log/routeurs/%HOSTNAME%.log")
+
+if ($fromhost-ip == '172.16.12.2' or
+    $fromhost-ip == '10.10.99.1' or
+    $fromhost-ip == '198.51.100.1') then {
+    action(type="omfile" dynaFile="ParHote")
+    stop
+}
+
+# ===== chrony/chrony.conf =====
+# À AJOUTER dans /etc/chrony/chrony.conf
+# STATUT : NON VÉRIFIÉ.
+local stratum 10
+allow 10.10.99.0/24
+allow 172.16.12.0/30
+allow 198.51.100.0/30

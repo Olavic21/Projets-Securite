@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 4 : Services d'administration R-DLA
+- Commande exécutée : /system service print
+- Sortie simulée : ssh oui, www non, api non, winbox non
+- Légende technique : Services d'administration du routeur R-DLA. SSH activé (gestion distante), www/api/winbox désactivés dans la politique de réduction de surface d'attaque. L'administration se fait exclusivement via console VNC.
+- Contrôle M1 : M1-01 Administration sécurisée - services minimaux
+- Référence NSA : Réduction de la surface d'attaque - services inutiles désactivés
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

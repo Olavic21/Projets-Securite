@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 12 : Interfaces R-SIEGE
+- Commande exécutée : show ip interface brief
+- Sortie simulée : GigabitEthernet0/0 10.10.99.1 up up, GigabitEthernet0/1 unassigned admin down
+- Légende technique : État des interfaces du routeur siège. L'interface GigabitEthernet0/0 est active avec l'adresse 10.10.99.1 (première adresse du réseau d'administration). L'interface GigabitEthernet0/1 est administrativement down.
+- Contrôle M1 : M1-03 Carte réseau
+- Référence NSA : Gestion des interfaces - état documenté
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

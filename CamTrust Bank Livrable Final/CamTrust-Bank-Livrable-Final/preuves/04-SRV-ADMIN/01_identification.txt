@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 24 : Identification et adresse IP SRV-ADMIN
+- Commande exécutée : ip addr show eth0
+- Sortie simulée : inet 10.10.99.20/24 brd 10.10.99.255 scope global eth0
+- Légende technique : Adresse IP de l'interface Ethernet principale du serveur Ubuntu Server 24.04. Montrerait l'adresse 10.10.99.20/24 attribuée au serveur central exécutant FreeRADIUS, rsyslog et chrony. L'état UP indique que l'interface est active.
+- Contrôle M1 : M1-01 Administration sécurisée - identification hôte
+- Référence NSA : Identification du système - adresse IP documentée
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 11 : Identification et version R-SIEGE
+- Commande exécutée : show version
+- Sortie simulée : Cisco IOS Software, Version 15.4(3)M
+- Légende technique : Version Cisco IOS du routeur siège montrant la révision logicielle. Cette information est cruciale pour déterminer les fonctionnalités de sécurité disponibles, les vulnérabilités potentielles et les correctifs applicables.
+- Contrôle M1 : M1-01 Administration sécurisée
+- Référence NSA : Gestion des correctifs - version logicielle documentée
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

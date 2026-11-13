@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 13 : Configuration SSH R-SIEGE
+- Commande exécutée : show running-config | include ssh
+- Sortie simulée : crypto ssh server version 2, crypto ssh server authentication local
+- Légende technique : Configuration du serveur SSH version 2 sur le routeur Cisco IOS. Le SSH version 2 est le protocole sécurisé requis pour l'administration distante, avec authentication locale utilisant les comptes locaux définis.
+- Contrôle M1 : M1-01 Administration sécurisée - SSHv2
+- Référence NSA : Communication sécurisée - SSH version 2 uniquement
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 32 : Compte désactivé (scénario)
+- Commande exécutée : Scénario de modification du fichier authorize pour commenter la ligne vick ou ajouter Auth-Type := Reject
+- Sortie simulée : [description de la modification du fichier authorize suivie d'une nouvelle exécution de radtest montrant <masqué>
+- Légende technique : Scénario de désactivation d'un compte utilisateur dans FreeRADIUS. Montrerait la modification du fichier authorize pour commenter la ligne vick Cleartext-Password := "<masqué>" ou ajouter Auth-Type := Reject à la place. La prochaine tentative d'authentification avec ce compte devrait retourner un Access-Reject.
+- Contrôle M1 : M1-02 Gestion des comptes - désactivation
+- Référence NSA : Gestion des comptes - révocation
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

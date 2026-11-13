@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 17 : NTP R-SIEGE
+- Commande exécutée : show ntp associations
+- Sortie simulée : [display of NTP peer associations]
+- Légende technique : Associations NTP (Network Time Protocol) du routeur. Montrerait les pairs horaires avec lesquels le routeur est synchronisé, leurs statuts et les décalages horaires.
+- Contrôle M1 : M1-05 Synchronisation horaire
+- Référence NSA : Synchronisation horaire - associations NTP documentées
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

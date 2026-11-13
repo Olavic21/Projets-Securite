@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 14 : Utilisateurs et AAA R-SIEGE
+- Commande exécutée : show aaa servers
+- Sortie simulée : [AAA server configuration display]
+- Légende technique : Serveurs AAA configurés sur le routeur siège. Montrerait si et comment le routeur est configuré pour utiliser des serveurs d'authentification externes (FreeRADIUS) ou s'il s'appuie sur la base d'utilisateurs locale.
+- Contrôle M1 : M1-03 Authentification centralisée
+- Référence NSA : Authentification centralisée - déploiement AAA
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

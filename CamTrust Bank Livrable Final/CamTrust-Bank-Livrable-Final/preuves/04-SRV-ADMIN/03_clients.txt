@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 25bis : Clients RADIUS déclarés
+- Commande exécutée : cat /etc/freeradius/3.0/clients.conf | grep -v '^#' | grep -v '^$' | head -20
+- Sortie simulée : [extraits montrant R-SIEGE 10.10.99.1, R-DLA 172.16.12.2, R-FAI 198.51.100.1 avec leurs secrets]
+- Légende technique : Extraits du fichier de configuration clients RADIUS de FreeRADIUS. Montrerait les déclarations des équipements clients (R-SIEGE à 10.10.99.1 secret cisco, R-DLA à 172.16.12.2 secret mikrotik, R-FAI à 198.51.100.1) avec leurs secrets partagés. Ces déclarations permettent au serveur FreeRADIUS d'accepter les paquets authentification en provenance de ces équipements spécifiques.
+- Contrôle M1 : M1-03 Authentification centralisée - clients déclarés
+- Référence NSA : Authentification centralisée - équipements clients authentifiés
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

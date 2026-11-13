@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 2 : Interfaces et adresses IP R-DLA
+- Commande exécutée : /ip address print
+- Sortie simulée : #0 10.10.99.2/24 ether1, #1 172.16.12.2/30 ether2
+- Légende technique : Configuration des interfaces physiques du routeur R-DLA montrant les deux liens actifs vers le réseau d'administration (10.10.99.0/24) et le lien vers le siège (172.16.12.0/30).
+- Contrôle M1 : M1-03 Carte réseau
+- Référence NSA : Documentation du matériel - cartes réseau identifiées et cataloguées
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 28 : Journalisation authentification
+- Commande exécutée : tail -20 /var/log/freeradius/radius.log
+- Sortie simulée : [20 dernières lignes du fichier journal FreeRADIUS montrant les événements d'authentification, succès et échecs, avec la mention 'User-Password suppressed']
+- Légende technique : 20 dernières lignes du fichier journal FreeRADIUS. Montrerait les entrées d'événement des tentatives d'authentification, incluant les succès et les échecs, les défaillances de paquet, et l'événement BlastRADIUR à 13:22:41. Note importante : User-Password est supprimé de la sortie par configuration ('User-Password' supprimé), conformément à la politique de sécurité ne jamais afficher les mots de passe en clair dans les journaux.
+- Contrôle M1 : M1-04 Journalisation
+- Référence NSA : Journalisation - pas de mots de passe en clair
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

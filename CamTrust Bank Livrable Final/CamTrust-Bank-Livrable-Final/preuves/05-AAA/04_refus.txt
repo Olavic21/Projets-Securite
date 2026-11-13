@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 33 : Authentification refusée après désactivation
+- Commande exécutée : radtest vick <masqué> localhost 0 <masqué> (après désactivation)
+- Sortie simulée : Received Access-Reject Id [number] ← 127.0.0.1:1812 (0) :- Expected Access-Accept got Access-Reject
+- Légende technique : Scénario de nouvelle tentative d'authentification après désactivation du compte vick. La sortie montrerait Received Access-Reject au lieu d'Access-Accept, démontrant que le mécanisme de désactivation fonctionne correctement. Le compte vick étant désormais considéré comme invalide, le serveur rejette la connexion.
+- Contrôle M1 : M1-02 Gestion des comptes - désactivation fonctionnelle
+- Référence NSA : Gestion des comptes - révocation effective
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

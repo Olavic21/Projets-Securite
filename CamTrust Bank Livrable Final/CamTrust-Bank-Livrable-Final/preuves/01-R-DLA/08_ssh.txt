@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 8 : SSH et administration à distance R-DLA
+- Commande exécutée : /system ssh print
+- Sortie simulée : disabled non (service actif), mais administration via console VNC uniquement
+- Légende technique : État du service SSH sur le routeur R-DLA. Le service SSH est présent mais l'administration distante s'effectue exclusivement via console VNC (ports 32769/32773) conformément à la politique VNC-typing safe. C'est un compromis : SSH est présent sur RouterOS mais n'est pas utilisé pour l'administration dans ce laboratoire.
+- Contrôle M1 : M1-01 Administration sécurisée - pas de SSH ouvert vers l'extérieur
+- Référence NSA : Plan de management - accès distant contrôlé
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

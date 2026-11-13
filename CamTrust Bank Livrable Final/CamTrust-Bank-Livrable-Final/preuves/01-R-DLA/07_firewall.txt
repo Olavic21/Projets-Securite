@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 7 : Pare-feu et filtrage R-DLA
+- Commande exécutée : /ip firewall filter print
+- Sortie simulée : #0 input accept icmp, #1 input drop udp port 53
+- Légende technique : Règles de pare-feu de base du routeur R-DLA. La règle 0 accepte les paquets ICMP (ping, traceroute). La règle 1 drop les requêtes UDP vers le port 53 (DNS) depuis l'extérieur, prévenant les attaques de récursion non autorisée.
+- Contrôle M1 : M1-06 Filtrage des accès
+- Référence NSA : Filtrage du trafic - règles de base ICMP/DNS
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 20 : Pare-feu VyOS
+- Commande exécutée : show firewall name FIREWALL-NAME rule 1
+- Sortie simulée : [règles de pare-feu VyOS]
+- Légende technique : Règles du pare-feu VyOS. VyOS utilise une configuration de pare-feu basée sur des zones et des règles. La règle 1 pourrait être une règle de par défaut permettant ou bloquant tout le trafic.
+- Contrôle M1 : M1-06 Filtrage des accès
+- Référence NSA : Pare-feu - règles documentées
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

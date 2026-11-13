@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 28bis : Chrony synchronisation
+- Commande exécutée : chronyc tracking
+- Sortie simulée : [état de suivi chrony avec source, écart, dispersion, statut FINE]
+- Légende technique : État de suivi chrony montrant la source de temps actuelle, l'écart d'horloge, la dispersion, et le statut de synchronisation (FINE, INIT, etc.). Confirme que l'horloge du serveur est synchronisée via les sources NTP configurées, ce qui est essentiel pour la chronologie des événements RADIUS et SysLog.
+- Contrôle M1 : M1-05 Synchronisation horaire
+- Référence NSA : Horodatage - synchronisation prouvée
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

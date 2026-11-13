@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 18 : Version et interface R-FAI
+- Commande exécutée : show version
+- Sortie simulée : VyOS version, informations kernel, détails licence
+- Légende technique : Version de VyOS du routeur fournisseur d'accès. Basé sur Debian, les identifiants diffèrent de Cisco ou RouterOS. Montrerait le numéro de version, le kernel et les informations de licence.
+- Contrôle M1 : M1-01 Administration sécurisée
+- Référence NSA : Identification du système d'exploitation
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

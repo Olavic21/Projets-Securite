@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 1 : Identification du routeur R-DLA
+- Commande exécutée : /system identity print
+- Sortie simulée : name : R-DLA
+- Légende technique : Cette illustration présente l'identification du routeur MikroTik CHR utilisé comme routeur de l'agence Douala. Le hostname R-DLA permet une identification rapide dans la topologie laboratoire.
+- Contrôle M1 : M1-01 Administration sécurisée
+- Référence NSA : Sécurisation du plan de management - identification de l'équipement
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

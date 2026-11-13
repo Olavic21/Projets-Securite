@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 10 : Synchronisation NTP R-DLA
+- Commande exécutée : /system ntp client print
+- Sortie simulée : Pas de configuration NTP directe sur RouterOS ; synchronisation assurée par l'hôte EVE-NG (chrony)
+- Légende technique : Configuration du client NTP sur le routeur R-DLA. Dans le cadre de ce laboratoire, la synchronisation horaire est assurée par l'hôte EVE-NG (chrony) et non directement sur RouterOS. Les événements de journalisation RADIUS sur l'hôte horodatent avec l'heure de l'hôte. Pour la conformité NSA, l'horloge du routeur doit être synchronisée, ce qui est assuré par l'hôte hyperviseur.
+- Contrôle M1 : M1-05 Synchronisation horaire
+- Référence NSA : Horodatage - horloge réseau synchronisée
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

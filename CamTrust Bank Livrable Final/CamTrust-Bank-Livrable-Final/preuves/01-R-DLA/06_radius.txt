@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 6 : Configuration RADIUS R-DLA
+- Commande exécutée : /radius add authentication-port=1812 accounting-port=1813 address=10.10.99.20 secret = <masqué>
+- Sortie simulée : Message de confirmation d'ajout du client RADIUS
+- Légende technique : Configuration du client RADIUS sur le routeur R-DLA pointant vers le serveur FreeRADIUS sur SRV-ADMIN (10.10.99.20). Le port 1812 pour l'authentification, port 1813 pour la comptabilisation, secret <masqué> à matcher côté serveur.
+- Contrôle M1 : M1-03 Authentification centralisée
+- Référence NSA : Authentification centralisée - liaison chiffrée entre équipement et serveur
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

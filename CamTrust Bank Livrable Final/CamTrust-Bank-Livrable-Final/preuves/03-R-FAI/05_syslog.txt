@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 22 : Syslog VyOS
+- Commande exécutée : show log
+- Sortie simulée : [entrées de journal système]
+- Légende technique : Journaux du système VyOS. Montrerait les entrées de journal système, incluant les événements de démarrage, les messages de statut et les avertissements de sécurité.
+- Contrôle M1 : M1-04 Journalisation
+- Référence NSA : Journalisation - événements consignés
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

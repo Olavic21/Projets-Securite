@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 5 : Comptes et groupes utilisateurs R-DLA
+- Commande exécutée : /user print
+- Sortie simulée : #0 X admin disabled, #1 vick full
+- Légende technique : Comptes utilisateur du routeur R-DLA montrant l'état actuel : le compte administrateur admin est en état disabled (désactivé) par politique de sécurité, tandis que le compte vick (créé pour l'authentification RADIUS) possède le groupe full (pleins droits). Cet dispositif permet une authentification centrale via FreeRADIUS tout en maintenant un compte de secours local en état verrouillé.
+- Contrôle M1 : M1-02 Gestion des comptes
+- Référence NSA : Gestion des comptes - compte administrateur désactivé, compte utilisateur avec groupe restreint
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles

@@ -1,0 +1,9 @@
+Document non probant. Texte étiqueté « simulé » ou « documentaire » dans l'archive source : ce n'est pas une capture ni une sortie obtenue. Copie masquée.
+
+Figure 29 : Déclaration des équipements clients
+- Commande exécutée : cat /etc/freeradius/3.0/mods-config/files/authorize | head -20
+- Sortie simulée : [en-têtes du fichier authorize montrant la structure avec les entrées vick en première position, les entrées #steve/#bob commentées]
+- Légende technique : En-têtes du fichier authorize de FreeRADIUS montrant la structure du fichier et les mécanismes d'authentification. Montrerait les entrées d'exemple commentées (#steve, #bob) et la première entrée utilisateur active (vick). Ce fichier détermine quels utilisateurs peuvent s'authentifier et quels attributs leur sont attribués.
+- Contrôle M1 : M1-03 Authentification centralisée - fichier authorize
+- Référence NSA : Fichier d'authentification centralisée
+- Type de preuve : documentaire - sortie reproduite à partir des éléments disponibles
